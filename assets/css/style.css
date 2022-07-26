@@ -12,24 +12,35 @@ body {
   width: 1920 px;
   height: 100px;
 }
-
+.alignement{
+  display: flex;
+  list-style-type: none;
+ 
+}
 .nav {
   display: flex;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-size: 20px;
+  justify-content: space-between;
 
-  justify-content: space-around;
-  align-items: center;
+ 
   background-color: black;
   height: (200px);
 
   width: 70%;
 
 }
-
+.textposition{
+  margin-right: 50px;
+  margin-top: 35px;
+  
+}
 .logo {
   width: 112 px;
   height: 82px;
   display: flex;
   justify-content: right;
+  margin-left: 100px;
 
 }
 
@@ -53,6 +64,7 @@ a {
 .content {
   width: 960px;
   margin: auto;
+
   color: rgb(0, 0, 0);
   background-color: rgba(178, 198, 198, 0.5);
   padding: 30px;
@@ -167,6 +179,6 @@ a {
   display: flex;
   background-color: black;
   justify-content: center;
-  width: 1920px;
+  width: 100%;
   height: 390px;
 }
