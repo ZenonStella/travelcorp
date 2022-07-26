@@ -10,12 +10,10 @@ body {
 }
 .nav{
     display: flex;
-
 justify-content: space-around;
 align-items: center;
     background-color: black;
     height: (200px);
-
 width: 70%;
 
 }
@@ -78,10 +76,7 @@ a{
    .myflexbox{
      display: flex;
     justify-content: space-evenly;
-     /* margin: 70px; */
      color: rgb(0, 0, 0);
-   
-   
    }
    .myfirstbox{
     display: flex;
