@@ -22,3 +22,6 @@
 // $contacts = $data->fetchAll(PDO::FETCH_ASSOC);
 // $json = json_encode($contacts, JSON_PRETTY_PRINT);
 // print($json);
+
+$json = file_get_contents('../data/continents.json');
+$obj = json_decode($json, true);
