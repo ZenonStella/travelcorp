@@ -1,124 +1,151 @@
 @import url('https://fonts.googleapis.com/css2?0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Antan&display=swap');
+
 body {
-   background-color: rgba(240, 240, 240);
-    color: rgb(0, 0, 0);
-  }
-.header{
-    display: flex;
-    background-color: black;
-    justify-content:center;
+  background-color: rgba(240, 240, 240);
+  color: rgb(0, 0, 0);
 }
-.nav{
-    display: flex;
-justify-content: space-around;
-align-items: center;
-    background-color: black;
-    height: (200px);
-width: 70%;
+
+.header {
+  display: flex;
+  background-color: black;
+  justify-content: center;
+}
+
+.nav {
+  display: flex;
+
+  justify-content: space-around;
+  align-items: center;
+  background-color: black;
+  height: (200px);
+
+  width: 70%;
 
 }
 
-.logo{
-    display: flex;
-    justify-content: right;
+.logo {
+  display: flex;
+  justify-content: right;
 
 }
-.contact{
-    width: 8%;
-    height: auto;
-    background-color: #ff6161;
+
+.contact {
+  width: 8%;
+  height: auto;
+  background-color: #ff6161;
 }
-a{
-    text-decoration: none;
-    color: white;
+
+a {
+  text-decoration: none;
+  color: white;
 }
-.main{
-    display: flex;
-    justify-content: center;
-    align-items: stretch;
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
 }
-.content{
-    width: 960px;
-    margin: auto;
-    color: rgb(0, 0, 0);
-    background-color: rgba(178, 198, 198, 0.5);
-    padding: 30px;
-   }
-   .picture{
-     width: 100%;
-   height: auto;
-   }
-   .picture2{
-   text-align: center;
-   }
-   .subtitle1{
-    text-align: left;
-    margin-left: 20px;
-   }
-   .mybox{
-    width: 350px;
-    height: 500px;
-    margin: 50px;
-     border: 1px solid rgb(255, 255, 255);
-     text-align: center;
-     margin-top:30px ;
-     background-color: rgba(255, 255, 255,0.5);
-     
-   }
-   .mybox:hover{
-     background-color: rgb(255, 255, 255);
-   }
-   .textcontent{
-     padding: 10px;
-     text-align: left;
-     color: rgb(0, 0, 0);
-   }
-   .myflexbox{
-     display: flex;
-    justify-content: space-evenly;
-     color: rgb(0, 0, 0);
-   }
-   .myfirstbox{
-    display: flex;
-    max-width: 1500px;
+
+.content {
+  width: 960px;
+  margin: auto;
+  color: rgb(0, 0, 0);
+  background-color: rgba(178, 198, 198, 0.5);
+  padding: 30px;
+}
+
+.picture {
+  width: 100%;
+  height: auto;
+}
+
+.picture2 {
+  text-align: center;
+}
+
+.subtitle1 {
+  text-align: left;
+  margin-left: 20px;
+}
+
+.mybox {
+  width: 300px;
+  /* height: 450px; */
+  /* margin: 20px; */
+/* padding-bottom: 20px; */
+  border: 1px solid rgb(255, 255, 255);
+  text-align: center;
+  margin-bottom: 40px;
+  background-color: rgba(255, 255, 255, 0.5);
+
+}
+
+.mybox:hover {
+  background-color: rgb(255, 255, 255);
+}
+
+.textcontent {
+  padding: 10px;
+  text-align: left;
+  color: rgb(0, 0, 0);
+}
+
+.myflexbox {
+  display: flex;
+  justify-content: space-evenly;
+  /* margin: 70px; */
+  color: rgb(0, 0, 0);
+  flex-wrap: wrap;
+
+}
+
+.myfirstbox {
+  display: flex;
+  max-width: 1500px;
   margin: 70px;
-     color: rgb(0, 0, 0);
+  color: rgb(0, 0, 0);
+  align-items: stretch;
+}
 
-   }
-   .mybox1{
-    width: 650px;
-    height: 500px;
-     border: 1px solid rgb(255, 255, 255);
-     text-align: center;
-    background-color: rgba(255, 255, 255,0.5);
-   }
-   .title1{
-    font-family : 'Antan', cursif;
-    color: #000;
-    font-size: 35px;
-    font-style: bold;
-  
-    
-   }
-   .subtitle1{
-    font-family : 'Antan', cursif;
-    color: #000;
-    font-size: 20px;
-    text-transform: uppercase;
-   }
-   .title2{
-    font-family : 'Antan', cursif;
-    color: #000;
-    font-size: 30px;
-    font-style: bold;
-    text-align: left;
-    padding: 10px;
-   }
-   .myflexbox2{
-    display: flex;
-   justify-content: space-evenly;
-    /* margin: 70px; */
-    color: rgb(0, 0, 0);
-    flex-wrap: wrap;
-  
-  }
+.mybox1 {
+  width: 645px;
+  margin-bottom: 40px;
+  /* height: 500px; */
+  border: 1px solid rgb(255, 255, 255);
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.title1 {
+  font-family: 'Antan', cursif;
+  color: #000;
+  font-size: 35px;
+  font-style: bold;
+
+
+}
+
+.subtitle1 {
+  font-family: 'Antan', cursif;
+  color: #000;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.title2 {
+  font-family: 'Antan', cursif;
+  color: #000;
+  font-size: 30px;
+  font-style: bold;
+  text-align: left;
+  padding: 10px;
+}
+
+.myflexbox2 {
+  display: flex;
+  justify-content: space-evenly;
+  /* margin: 70px; */
+  color: rgb(0, 0, 0);
+  flex-wrap: wrap;
+
+}
