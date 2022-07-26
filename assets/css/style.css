@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Antan&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Kodchasan:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Lora:wght@500&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Yesteryear&display=swap");
 
 body {
   background-color: rgba(240, 240, 240);
@@ -9,6 +9,8 @@ body {
   display: flex;
   background-color: black;
   justify-content: center;
+  width: 1920 px;
+  height: 100px;
 }
 
 .nav {
@@ -24,14 +26,16 @@ body {
 }
 
 .logo {
+  width: 112 px;
+  height: 82px;
   display: flex;
   justify-content: right;
 
 }
 
 .contact {
-  width: 8%;
-  height: auto;
+  width: 72px;
+  height: 100px;
   background-color: #ff6161;
 }
 
@@ -77,6 +81,9 @@ a {
   text-align: center;
   margin-bottom: 40px;
   background-color: rgba(255, 255, 255, 0.5);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 
 }
 
@@ -85,6 +92,10 @@ a {
 }
 
 .textcontent {
+  font-family:'Montserrat', sans-serif;
+  color: #000;
+  font-size: 14px;
+  font-style: normal;
   padding: 10px;
   text-align: left;
   color: rgb(0, 0, 0);
@@ -117,23 +128,26 @@ a {
 }
 
 .title1 {
-  font-family: 'Antan', cursif;
+  font-family:'Montserrat', sans-serif;
   color: #000;
-  font-size: 35px;
+  font-size: 30px;
   font-style: bold;
 
 
 }
 
 .subtitle1 {
-  font-family: 'Antan', cursif;
-  color: #000;
+  font-family:'Montserrat', sans-serif;
+  color: rgb(130, 130, 130);
   font-size: 20px;
   text-transform: uppercase;
+  text-align: left;
+  justify-items: baseline;
+ 
 }
 
 .title2 {
-  font-family: 'Antan', cursif;
+  font-family:'Montserrat', sans-serif;
   color: #000;
   font-size: 30px;
   font-style: bold;
@@ -148,4 +162,11 @@ a {
   color: rgb(0, 0, 0);
   flex-wrap: wrap;
 
+}
+.footer{
+  display: flex;
+  background-color: black;
+  justify-content: center;
+  width: 1920px;
+  height: 390px;
 }
