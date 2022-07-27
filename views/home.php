@@ -12,10 +12,9 @@ $obj = json_decode($json, true);
                 <div class="picture2">
                     <img class="picture" src="../assets/img/<?= $value['picture'] ?>">
                 </div>
-                <p class="title1"><?= $value['title'] ?></p>
+                <p class="title2"><?= $value['title'] ?></p>
                 <p class="textcontent"><?= $value['description'] ?></p>
                 <p class="subtitle1"><?= $value['name'] ?></p>
-
             </div>
         <?php } ?>
     </div>
