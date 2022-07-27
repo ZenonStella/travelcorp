@@ -24,4 +24,11 @@
             </div>
         </nav>
     </header>
+    <div class="pictos">
+        <img class="picto" src="../assets/img/at.svg">
+        <img class="picto" src="../assets/img/facebook.svg">
+        <img class="picto" src="../assets/img/instagram.svg">
+        <img class="picto" src="../assets/img/pinterest.svg">
+        <img class="picto" src="../assets/img/twitter.svg">
+    </div>
     <div class="main">
