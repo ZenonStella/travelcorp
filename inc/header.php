@@ -8,6 +8,7 @@
     <title>Travelcorp</title>
     <link rel="stylesheet" href="../assets/css/style.css">
 </head>
+
 <body>
     <header class="header">
         <nav class="nav">
@@ -20,7 +21,9 @@
                 <a class="textposition" href="#">Asie</a>
                 <a class="textposition" href="#">Océanie</a>
                 <a class="textposition" href="#">Afrique</a>
-                <img class="contact" src="../assets/img/account-outline.svg">
+                <div class="contact">
+                    <img class="pictocontact" src="../assets/img/account-outlinebl.svg">
+                </div>
             </div>
         </nav>
     </header>
