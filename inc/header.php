@@ -8,17 +8,20 @@
     <title>Travelcorp</title>
     <link rel="stylesheet" href="../assets/css/style.css">
 </head>
-
 <body>
     <header class="header">
-    <nav class="nav">
-        <img class="logo" src="../assets/img/logo-travelcorp.png">
-        <div class="Continent"><a href="#">Amérique</a></div>
-        <div class="Continent"><a href="#">Europe</a></div>
-        <div class="Continent"><a href="#">Asie</a></div>
-        <div class="Continent"><a href="#">Océanie</a></div>
-        <div class="Continent"><a href="#">Afrique</a></div>
-        <img class="contact" src="../assets/img/picto contact.png">
-    </nav>
+        <nav class="nav">
+            <div>
+                <img class="logo" src="../assets/img/logo-travelcorp.png">
+            </div>
+            <div class="alignement">
+                <a class="textposition" href="#">Amérique</a>
+                <a class="textposition" href="#">Europe</a>
+                <a class="textposition" href="#">Asie</a>
+                <a class="textposition" href="#">Océanie</a>
+                <a class="textposition" href="#">Afrique</a>
+                <img class="contact" src="../assets/img/account-outline.svg">
+            </div>
+        </nav>
     </header>
     <div class="main">
