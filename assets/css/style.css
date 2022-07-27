@@ -35,6 +35,27 @@ font-size: 20px;
   margin-top: 35px;
   
 }
+
+.textposition2{
+  font-family:'Montserrat', sans-serif;
+  color: rgb(255, 255, 255);
+  font-size: 12px;
+  font-style: bold;
+  text-transform: uppercase;
+  /* text-align: left;
+  justify-items: baseline; */
+  
+}
+.textposition3{
+  font-family:'Montserrat', sans-serif;
+  color: rgb(255, 255, 255);
+  font-size: 14px;
+  font-style: normal;
+  /* text-transform: uppercase; */
+  /* text-align: left;
+  justify-items: baseline; */
+  
+}
 .logo {
   width: 112 px;
   height: 82px;
@@ -181,4 +202,47 @@ a {
   justify-content: center;
   width: 100%;
   height: 390px;
+  padding: 20px;
+}
+.findus{
+  display: flex;
+  flex-direction: column;
+   flex-wrap: wrap;
+  font-family:'Montserrat', sans-serif;
+  color: rgb(255, 255, 255);
+  font-size: 12px;
+  font-style: normal;
+  display: flex;
+  justify-content: space-evenly;
+  
+  
+}
+ .backgroundcontact{
+  background-color: rgba(255, 255, 255, 0.5);
+  display: flex;
+  flex-direction: column;
+   justify-content: space-between; 
+
+ flex-wrap: wrap;
+} */
+.logodown {
+  width: 112 px;
+  height: 82px;
+  display: flex;
+  margin: 40px;
+  /* justify-content: right; */
+  flex-wrap: wrap;
+
+}
+.myboxnaviguer {
+  width: 300px;
+  height: 450px;
+   margin: 20px;
+ padding-bottom: 20px;
+font-family:'Montserrat', sans-serif;
+color: rgb(255, 255, 255);
+font-size: 24px;
+font-style: bold;
+text-align: left;
+
 }
