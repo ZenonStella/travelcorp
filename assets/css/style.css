@@ -108,9 +108,6 @@ a {
 
 .mybox {
   width: 300px;
-  /* height: 450px; */
-  /* margin: 20px; */
-/* padding-bottom: 20px; */
   border: 1px solid rgb(255, 255, 255);
   text-align: center;
   margin-bottom: 40px;
@@ -119,6 +116,14 @@ a {
   flex-direction: column;
   justify-content: space-between;
 
+}
+.mybox:first-child{
+  width: 645px;
+  margin-bottom: 40px;
+  /* height: 500px; */
+  border: 1px solid rgb(255, 255, 255);
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.5);
 }
 
 .mybox:hover {
